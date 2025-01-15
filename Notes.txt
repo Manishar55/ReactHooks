@@ -27,8 +27,11 @@ It combines componentDidMount, componentDidUpdate, and componentWillUnmount.
 
 📋 useEffect has three variations: 
     without dependencies (runs on every change), 
-    with an empty array (runs once on mount), 
+    with an empty array (runs once on mount), when our component gets render first time => it is useful when we fetch data from API or server, that will fetch data when the component gets render first time
     and with variables (runs on mount and when specified variables change).
+
+📋 Cleanup functions in useEffect are essential to handle scenarios where side effects need to be stopped or cleaned up, preventing performance issues.
+
 
 🔍
 📋
