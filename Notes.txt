@@ -1,0 +1,92 @@
+
+//🌐Hooks
+📋 Hooks are functions to use some react features in functional components
+📋 Hooks are functions that make functional components work like class components
+
+
+🔍useState ->  useState hook is used to add state in functional components. 
+📋 state is nothing but just values or variables of your component
+📋 It returns an array with the current state value and a function to update that value.
+📋 Updating state with useState involves calling the function returned by the hook and passing the new value.
+📋 Array destructuring can be used to simplify the code.
+📋 useState can handle different types of data (boolean, number, text, object, array).
+
+
+🔍useEffect
+📋 useEffect is used to perform side effect in our component
+📋 side effects are actions which are performed with the outside world
+📋 We perform a side effect when we need to reach outside of our React components to do something
+
+📋 useEffect is used for side effects in components, such as fetching data from API, updating the DOM and window, or using timers, setTimeout and setIntervals.
+It combines componentDidMount, componentDidUpdate, and componentWillUnmount.
+
+📋 useEffect(callback, dependencies)
+📋 callback-> function (side effect logic) = what to run
+📋 dependencies-> Array of variables  = when to run
+📋 useEffect runs on every render, whic means when the count changes render happens and we can control that by dependencies
+
+📋 useEffect has three variations: 
+    without dependencies (runs on every change), 
+    with an empty array (runs once on mount), 
+    and with variables (runs on mount and when specified variables change).
+
+🔍
+📋
+📋
+📋
+📋
+
+
+
+🔍
+📋
+📋
+📋
+📋
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 📋 🔍  ⚡ 
