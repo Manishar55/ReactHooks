@@ -17,7 +17,6 @@ function CleanUp() {
             clearInterval(timer);  //the cleanup function will be called when the component is unmounted 
         }
     });
-    
 
     return(
         <div>

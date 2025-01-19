@@ -23,9 +23,9 @@ It combines componentDidMount, componentDidUpdate, and componentWillUnmount.
 📋 useEffect(callback, dependencies)
 📋 callback-> function (side effect logic) = what to run
 📋 dependencies-> Array of variables  = when to run
-📋 useEffect runs on every render, whic means when the count changes render happens and we can control that by dependencies
+📋 useEffect runs on every render, which means when the count changes render happens and we can control that by dependencies
 
-📋 useEffect has three variations: 
+📋 useEffect has three variations:- 
     without dependencies (runs on every change), 
     with an empty array (runs once on mount), when our component gets render first time => it is useful when we fetch data from API or server, that will fetch data when the component gets render first time
     and with variables (runs on mount and when specified variables change).
@@ -33,10 +33,15 @@ It combines componentDidMount, componentDidUpdate, and componentWillUnmount.
 📋 Cleanup functions in useEffect are essential to handle scenarios where side effects need to be stopped or cleaned up, preventing performance issues.
 
 
-🔍
-📋
-📋
-📋
+🔍useContext
+📋 useContext hook is used to manage global data in react application, like Global state, Themes, Services, User Settings
+📋 useContext will help us to create global data for our react application and we don't have to pass the data through all the components 
+we can access the data in all component whenever we need it 
+
+📋 create context require three steps:
+    1) Creating the context
+    2) Providing the context
+    3) Consuming the context
 📋
 
 
