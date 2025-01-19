@@ -1,20 +1,30 @@
-import { createContext } from 'react'
+// import { createContext } from 'react'
 import './App.css'
 import MainComponent from './Components/MainComponent';
+import LoginContextProvider from './Context/LoginContextProvider'
 
-const LoginContext = createContext();
+
+
+// export const LoginContext = createContext();
 
 function App() {
 
   return (
-    <>
-      <div>
+    // whatever component you pass between this provider, it and it's child components can access this context value 
+      // <LoginContext.Provider  value={true}>
+      //   <div>
+      //     <MainComponent/>
+      //   </div>
+      // </LoginContext.Provider> 
 
-        <MainComponent/>
+      
+      <LoginContextProvider>
 
-      </div>
-    </>
-  )
+          <MainComponent/>
+
+      </LoginContextProvider>
+    
+  );
 }
 
-export default App
+export default App;
