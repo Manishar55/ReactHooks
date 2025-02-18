@@ -41,12 +41,12 @@ function App() {
     }));
   }
 
-  function updateName(e) {
-    setDetails(prev => ({
-      ...prev,
-      name: e.target.value,
-    }));
-  }
+  // function updateName(e) {
+  //   setDetails(prev => ({
+  //     ...prev,
+  //     name: e.target.value,
+  //   }));
+  // }
 
   return (
     <>
