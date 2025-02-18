@@ -5,9 +5,9 @@ import CleanUp from './Components/CleanUp'
 function App() {
   const [count, setCount] = useState(0);
 
-  // useEffect(()=>{
-  //   document.title=`${count} new messages !!`;   //we are using useEffect without any dependency, so it will run on every single change
-  // });
+  useEffect(()=>{
+    document.title=`${count} new messages !!`;   //we are using useEffect without any dependency, so it will run on every single change
+  });
 
   // useEffect(()=>{
   //   document.title=`${count} new messages !!`;   //useEffect will run only one time, when our component gets render first time
