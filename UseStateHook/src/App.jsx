@@ -28,6 +28,7 @@ import './App.css'
 // }
 
 
+//Same thing using only one useState variable
 //useState with object
 function App() {
 

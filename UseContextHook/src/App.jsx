@@ -10,6 +10,7 @@ import LoginContextProvider from './Context/LoginContextProvider'
 function App() {
 
   return (
+    //for single context
     // whatever component you pass between this provider, it and it's child components can access this context value 
       // <LoginContext.Provider  value={true}>
       //   <div>
@@ -18,6 +19,8 @@ function App() {
       // </LoginContext.Provider> 
 
       
+
+      //for more than one context
       <LoginContextProvider>
 
           <MainComponent/>

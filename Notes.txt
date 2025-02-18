@@ -4,6 +4,7 @@
 📋 Hooks are functions that make functional components work like class components
 
 
+
 🔍useState ->  useState hook is used to add state in functional components. 
 📋 state is nothing but just values or variables of your component
 📋 It returns an array with the current state value and a function to update that value.
@@ -42,9 +43,34 @@ we can access the data in all component whenever we need it
 📋 if you want to pass data just for child component, then you can use props
 
 📋 create context require three steps:
-    1) Creating the context
-    2) Providing the context
-    3) Consuming the context
+    1) Creating the context (using createContext()) 
+    2) Providing the context  (u need to decide which components can access this context with the use of context.provider)
+    3) Consuming the context  (import that context and pass that context inside useContext() hook)
+
+
+
+
+🔍useRef
+📋useRef is allow us to create mutable variables which will not re-render the component
+📋useRef allows us to direct access DOM elements without writing  Document.getElementById/className by ref attribute
+
+📋const variableName = useRef(initialVlaue) 
+
+
+🔍useReducer
+📋
+📋
+📋
+📋
+
+
+
+
+
+
+
+
+
 
 
 
@@ -54,6 +80,16 @@ we can access the data in all component whenever we need it
 📋
 📋
 📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+
 
 
 
