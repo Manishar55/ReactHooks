@@ -58,10 +58,10 @@ we can access the data in all component whenever we need it
 
 
 🔍useReducer
-📋
-📋
-📋
-📋
+📋useReducer is used to manage state in our react application
+📋useReducer works like a state management tool
+📋state management is used to manage all states of application in a simple way
+📋Always use the useReducer hook when you have a lot of states and methods to handle
 
 
 
