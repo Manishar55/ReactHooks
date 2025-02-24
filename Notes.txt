@@ -68,22 +68,14 @@ we can access the data in all component whenever we need it
 
 
 
-
-
-
-
-
-
-
-
-
-🔍
-📋
-📋
-📋
-📋
-📋
-📋
+🔍useLayoutEffect
+📋useLayoutEffect works exactly the same as useEffect but the differece is "when it runs"
+📋useEffect runs after the DOM is printed on the browser
+📋useLayoutEffect runs before the DOM is printed on the browser 
+📋whenever we want to  run code before the DOM is printed like we want to measure an element's height, width 
+or anything related to layout we can use useLayoutEffect
+📋it runs synchronously which means it runs the first line and only move to the if first line's execution is completed
+📋The most common use case of useLayoutEffect is to get the dimension of the layout
 📋
 📋
 📋
