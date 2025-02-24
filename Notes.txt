@@ -76,6 +76,16 @@ we can access the data in all component whenever we need it
 or anything related to layout we can use useLayoutEffect
 📋it runs synchronously which means it runs the first line and only move to the if first line's execution is completed
 📋The most common use case of useLayoutEffect is to get the dimension of the layout
+
+📋work flow:-
+📋React calculates all it's mutations 
+📋Then useLayoutEffect will run 
+📋Then react prints all elements on DOM
+📋Then useEffect will run
+
+
+
+🔍
 📋
 📋
 📋
@@ -83,37 +93,40 @@ or anything related to layout we can use useLayoutEffect
 📋
 📋
 📋
+📋
+📋
+📋
+📋
+📋
 
 
 
+🔍
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+🔍
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
+📋
 
 
 
