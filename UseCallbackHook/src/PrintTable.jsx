@@ -5,8 +5,8 @@ const PrintTable=({calculateTable})=>{
     const [rows, setRows]=useState([]);
 
     useEffect(()=>{
-        console.log("Peint table runs");
-        setRows(calculateTable());
+        console.log("Print table runs"); 
+        setRows(calculateTable(3));
         
     }, [calculateTable]);
 

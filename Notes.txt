@@ -112,15 +112,11 @@ then with setValue funtion we can update that
 🔍useCallback
 📋useCallback is used to return Memoize function
 📋it is also useful for preventing functions from being re-created on re-rendering
-📋
-📋
-📋
-📋
-📋
-📋
-📋
-📋
-📋
+📋it is similar as useMemo hook, we can't pass parameter
+📋useMemo returns the Memoized value, we can pass parameter
+📋useCallback returns the Memoized function
+📋it accepts two parameter 1st is callback and 2nd is dependencies array
+
 
 
 
