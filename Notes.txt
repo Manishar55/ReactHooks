@@ -1,4 +1,6 @@
 
+// npm create vite@latest
+
 //🌐Hooks
 📋 Hooks are functions to use some react features in functional components
 📋 Hooks are functions that make functional components work like class components
@@ -11,6 +13,7 @@
 📋 Updating state with useState involves calling the function returned by the hook and passing the new value.
 📋 Array destructuring can be used to simplify the code.
 📋 useState can handle different types of data (boolean, number, text, object, array).
+
 
 
 
@@ -36,6 +39,7 @@ It combines componentDidMount, componentDidUpdate, and componentWillUnmount.
 
 
 
+
 🔍useContext
 📋 useContext hook is used to manage global data in react application, like Global state, Themes, Services, User Settings
 📋 useContext will help us to create global data for our react application and we don't have to pass the data through all the components 
@@ -49,12 +53,12 @@ we can access the data in all component whenever we need it
 
 
 
-
 🔍useRef
 📋useRef is allow us to create mutable variables which will not re-render the component
 📋useRef allows us to direct access DOM elements without writing  Document.getElementById/className by ref attribute
 
 📋const variableName = useRef(initialVlaue) 
+
 
 
 🔍useReducer
@@ -85,25 +89,29 @@ or anything related to layout we can use useLayoutEffect
 
 
 
-🔍
-📋
-📋
-📋
-📋
-📋
-📋
-📋
-📋
-📋
-📋
-📋
-📋
+🔍useMemo
+📋useMemo hook is used to apply Memoization in React
+📋Memoization is a technique for improving the performance of code 
+📋It is useful to avoid expensive calculations on every render when the returned value is not going to changed.
+📋useMemo syntax is same as useEffect
+
+
+📋 useEffect vs useMemo
+📋In useEffect we can't return the value and we can't store it in variable we have to create one more state variable 
+then with setValue funtion we can update that 
+📋But in UseMemo we can return the value and we can store this value in a variable
+📋we perform all side effects in useEffect hook
+📋All expensive functions, calculations in useMemo hook
+
+📋it is used to improve performance of our react application
+📋we can stop running unwanted functions on Re-rendering
 
 
 
-🔍
-📋
-📋
+
+🔍useCallback
+📋useCallback is used to return Memoize function
+📋it is also useful for preventing functions from being re-created on re-rendering
 📋
 📋
 📋
