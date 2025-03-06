@@ -95,7 +95,6 @@ or anything related to layout we can use useLayoutEffect
 📋It is useful to avoid expensive calculations on every render when the returned value is not going to changed.
 📋useMemo syntax is same as useEffect
 
-
 📋 useEffect vs useMemo
 📋In useEffect we can't return the value and we can't store it in variable we have to create one more state variable 
 then with setValue funtion we can update that 
@@ -120,11 +119,11 @@ then with setValue funtion we can update that
 
 
 
-🔍
-📋
-📋
-📋
-📋
+🔍Custom Hooks
+📋Custom Hooks are basically reusable functions 
+📋Custom Hooks are your own hooks that you create for your own use, and you can use them multiple times in your project
+📋instead of writing the long code in every place you create your own hook and you use it like other built in hooks
+📋we can use multiple hooks and create something that will help you to skip repeated tasks in your projects 
 📋
 📋
 📋
