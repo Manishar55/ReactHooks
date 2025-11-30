@@ -37,7 +37,7 @@ It combines componentDidMount, componentDidUpdate, and componentWillUnmount.
 
 📋 Cleanup functions in useEffect are essential to handle scenarios where side effects need to be stopped or cleaned up, preventing performance issues.
 
-
+=>Dependencies arrays act as triggers for useEffect to return means if any of the dependencies values change, the code inside useEffect() will be executed again.
 
 
 🔍useContext
